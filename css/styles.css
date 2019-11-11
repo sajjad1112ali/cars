@@ -1,0 +1,199 @@
+body{font-family: 'Roboto', sans-serif;}
+.bg-corners{
+	background: #fe2400;
+	padding:15px 0px;
+	color: white;
+}
+
+.bg-orange
+{
+	background: #fe2400;
+}
+.bg-black{
+	background: black;
+}
+.welcome-car{ border-top: 20px solid #fe2400; border-bottom: 20px solid #fe2400;}
+.color-orange,
+.vip-cars > div > div > div > div  .card-title
+{ color: #fe2400;}
+.vip-cars > div > div > div > div {
+    text-align: center;
+    text-align: center;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.news-blog > div > div  {
+    background: transparent;
+    border: 1px solid transparent;
+    text-align: justify;
+}
+.news-blog > div > div > div  {
+    padding: 20px 0px;
+}
+.news-blog > div > div > div > div{
+    background: rgb(254,36,0);
+    background: linear-gradient(90deg, rgba(254,36,0,0.56) 3%, rgba(254,36,0,1) 50%, rgba(254,36,0,0.5578606442577031) 91%);
+    height: 3px;
+    width: 63%;
+    margin-bottom: 15px;
+}
+
+.color-gry{ color:gray;}
+.web-title{padding: 25px 0px; color: #fe2400;}
+.social-links a{
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    margin-right: 20px;
+    border-radius: 28px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.social-links a > i{
+   vertical-align: sub;
+}
+
+.services-area {    padding: 30px 0px;}
+.services-area > div { border-right: 1px solid black;}
+.services-area > div.border-none{border-right: none }
+.services-area img {margin: 10px;}
+
+.banner{ 
+	background: url('../images/banner.png') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    height: 650px;
+    color: white;
+}
+.vip-sec-bg{ 
+	background: url('../images/banner.png') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.overlay{ background:#0000008c;}
+.overlay-dark{background: #000000db;}
+.btn-custom{
+	background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 0;
+    padding: .375rem 2rem;
+}
+.btn-orange{
+	border: 1px solid #fe2400;
+	color: #fe2400;
+}
+.sec-padding{padding: 4rem 4rem;}
+
+.btn-floating {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    width: 47px;
+    height: 47px;
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+}
+.carousel-multi-item .controls-top .btn-floating {
+    background: #fe2400;
+}
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+    color: #fff;
+}
+.btn-floating i {
+    font-size: 1.25rem;
+    line-height: 47px;
+}
+.shadow {
+    box-shadow: 0 4px 8px rgba(59,64,69,0.2) !important;
+}
+.apply-online{
+    padding: 2rem 0rem;
+    margin-top: -19px;
+    background: white;
+    position: relative;
+}
+.mt-neg-30{margin-top: -22px;}
+.bg-gry{ background: #dedede;}
+
+.info-color {
+    background-color: #33b5e5!important;
+}
+.blue-gradient {
+    background: linear-gradient(40deg,#45cafc,#303f9f)!important;
+}
+.indigo {
+    background-color: #3f51b5!important;
+}
+.testimonial-card .card-up {
+    overflow: hidden;
+    height: 120px;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+.testimonial-card .avatar {
+    border-radius: 50%;
+    width: 120px;
+    margin-top: -60px;
+    overflow: hidden;
+    border: 5px solid #fff;
+}
+footer,
+.footer-ul > li > a { color: white;}
+.location{
+    float: left;
+    margin-top: 12px;
+}
+.footer-ul > li{
+    margin-top: 19px;
+}
+.footer-ul > li > a i {
+    margin-right: 10px;
+}
+.form-control {
+    border-radius: 1px;
+}
+
+/******************************** SPINER CLASS *********************/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}
+
+@media (max-width: 768px){
+	.services-area > div { 
+		border-bottom: 1px solid black;
+		border-right: none;
+	}
+.services-area > div.border-none{border-bottom: none }
+.location{
+    margin-top: 5px;
+}
+}
+@media (max-width: 992px){
+	.web-title{padding: 25px 0px 0px 0px;}
+
+}
