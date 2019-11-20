@@ -87,13 +87,24 @@ body{font-family: 'Roboto', sans-serif;}
 	border: 1px solid #fe2400;
 	color: #fe2400;
 }
+.transition-all{
+    
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+.btn-orange:hover{
+    color: white;
+    background: #fe2400;
+}
+
 .sec-padding{padding: 4rem 4rem;}
 
 .btn-floating {
     -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
     box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
-    width: 47px;
-    height: 47px;
     position: relative;
     z-index: 1;
     vertical-align: middle;
@@ -105,10 +116,14 @@ body{font-family: 'Roboto', sans-serif;}
     margin: 10px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    padding: 0;
+    padding: 2px 17px;
     cursor: pointer;
 }
 .carousel-multi-item .controls-top .btn-floating {
+    background: transparent;
+    border: 2px solid #fe2400;
+}
+.carousel-multi-item .controls-top .btn-floating:hover {
     background: #fe2400;
 }
 .btn-floating i {
