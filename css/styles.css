@@ -41,6 +41,7 @@ body{font-family: 'Roboto', sans-serif;}
 }
 
 .color-gry{ color:gray;}
+.color-white{ color:white;}
 .web-title{padding: 25px 0px; color: #fe2400;}
 .social-links a{
     color: white;
@@ -73,8 +74,8 @@ body{font-family: 'Roboto', sans-serif;}
 	background-size: cover;
 	background-attachment: fixed;
 }
-.overlay{ background:#0000008c;}
-.overlay-dark{background: #000000db;}
+.overlay{ background:rgba(0, 0, 0, 0.8588235294117647);}
+.overlay-dark{background: rgba(0, 0, 0, 0.8588235294117647);}
 .btn-custom{
 	background: transparent;
     border: 1px solid white;
